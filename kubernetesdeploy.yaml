@@ -18,7 +18,7 @@ spec:
       - name: bankapp-eta-container
         image: dockernil19/bankapp-eta-app
         ports:
-        - containerPort: 8082
+        - containerPort: 8081
 ---
 apiVersion: v1
 kind: Service
